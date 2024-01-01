@@ -12,7 +12,7 @@ import swaggerUiExpress from 'swagger-ui-express'
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const connection = mongoose.connect(`mongodb+srv://franciscopugh01:@cluster0.dig3fu3.mongodb.net/?retryWrites=true&w=majority`)
+const connection = mongoose.connect(`mongodb+srv://zoomZK:<w8GlddqHZpfhkYiC>@zoomzk.qq9hh9t.mongodb.net/`)
 
 const swaggerOptions = {
     definition: {
